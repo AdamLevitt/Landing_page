@@ -20,14 +20,12 @@ body {
 .header_left{
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-top: 5px;
+    margin-left: 100px;
     color: #f9faf8;
     font-size: 24px;
-    border: 1px solid red;
-}
-
-.header_logo {
-    justify-content: center;
+    max-width: 150px;
+    text-align: center;
 }
 
 .header_right {
