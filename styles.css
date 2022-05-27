@@ -31,7 +31,7 @@ body {
 .header_right {
     display: flex;
     align-items: center;
-    gap: 10px
+    gap: 20px
 }
 
 .header_link {
@@ -43,4 +43,52 @@ body {
 a {
     text-decoration: none;
     
+}
+
+.section_1 {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section_1_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+
+}
+
+.section_1_left, .section_1_right {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.section_1_left_title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.section_1_left_text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section_1_left_button {
+    align-items: flex-start;
+    width: 35%;
+    height: 35px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
