@@ -102,14 +102,18 @@ a {
 
 .section_2_bottom {
     display: flex;
-    gap: 70px
+    gap: 80px;
+    margin-bottom: 50px;
 }
 
 .item_1, .item_2, .item_3, .item_4 {
     margin-top: 25px;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 125px;
+    align-items: center;
 }
 
 .box img{
@@ -118,11 +122,13 @@ a {
     border-radius: 12px;
 }
 
-.item_1_img img, .item_2_img img, .item_4_img img{
+.item_1_img img, .item_2_img img, .item_3_img img, .item_4_img img{
     object-fit: fill;
 
 }
 
-.box .item_3_img {
-    object-fit: fill;
+.item_1_text, .item_2_text, .item_3_text, .item_4_text {
+    color: #b6b8bd;
+    text-align: left;
+    font-size: 12px;
 }
