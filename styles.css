@@ -181,9 +181,14 @@ a {
     margin-bottom: 25px;
 }
 
+/* .section_4_left {
+    font-family: Calibri;
+} */
+
 .section_4_left .top_text {
     font-weight: 800;
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .section_4_left .bottom_text {
@@ -202,9 +207,24 @@ a {
 .section_4_right .sign_up {
     border: 2px solid;
     border-color: #f9faf8;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: #3882f6;
     width: 100%;
-    height: 70%;
+    height: 75%;
     color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+
+}
+
+.footer .footer_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
